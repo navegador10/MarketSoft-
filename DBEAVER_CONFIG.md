@@ -13,11 +13,13 @@
 ## Opción 2: PostgreSQL (Para producción)
 
 ### 1. Instalar PostgreSQL
-- Descargar desde: https://www.postgresql.org/download/windows/
+
+- Descargar desde: <https://www.postgresql.org/download/windows/>
 - Instalar con contraseña: postgres
 - Puerto: 5432
 
 ### 2. Crear base de datos
+
 ```sql
 -- Conectar a PostgreSQL por primera vez
 -- Abrir pgAdmin o DBeaver y ejecutar:
@@ -28,6 +30,7 @@ GRANT ALL PRIVILEGES ON DATABASE marketsoft TO marketsoft_user;
 ```
 
 ### 3. Configurar conexión en DBeaver
+
 1. Archivo → Nuevo → Conexión de Base de Datos
 2. Seleccionar PostgreSQL → Siguiente
 3. Configurar:
@@ -40,7 +43,8 @@ GRANT ALL PRIVILEGES ON DATABASE marketsoft TO marketsoft_user;
 5. Click en "Finalizar"
 
 ### 4. Actualizar .env para PostgreSQL
-```
+
+```env
 DB_NAME=marketsoft
 DB_USER=postgres
 DB_PASSWORD=postgres

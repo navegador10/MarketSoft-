@@ -2,7 +2,7 @@
 
 ## 1. Create GitHub Repository
 
-1. Go to https://github.com and sign in
+1. Go to <https://github.com> and sign in
 2. Click "+" → "New repository"
 3. Repository name: `marketsoft-backend`
 4. Description: `Backend API for supermarket management system built with Node.js, Express, and PostgreSQL/SQLite`
@@ -13,6 +13,7 @@
 ## 2. Connect Local Repository to GitHub
 
 ### Option A: HTTPS (Recommended)
+
 ```bash
 git remote add origin https://github.com/YOUR_USERNAME/marketsoft-backend.git
 git branch -M main
@@ -20,6 +21,7 @@ git push -u origin main
 ```
 
 ### Option B: SSH
+
 ```bash
 git remote add origin git@github.com:YOUR_USERNAME/marketsoft-backend.git
 git branch -M main
@@ -29,9 +31,10 @@ git push -u origin main
 ## 3. Verify Repository
 
 After pushing, visit your repository at:
-https://github.com/YOUR_USERNAME/marketsoft-backend
+<https://github.com/YOUR_USERNAME/marketsoft-backend>
 
 You should see:
+
 - All project files
 - README.md as the main page
 - Proper file structure
@@ -39,7 +42,8 @@ You should see:
 
 ## 4. Next Steps
 
-### For Development:
+### For Development
+
 ```bash
 # Create feature branch
 git checkout -b feature/new-feature
@@ -54,7 +58,8 @@ git push origin feature/new-feature
 # Create Pull Request on GitHub
 ```
 
-### For Deployment:
+### For Deployment
+
 - Connect to Vercel, Heroku, or other hosting
 - Set environment variables
 - Deploy from main branch
