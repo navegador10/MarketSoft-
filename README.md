@@ -17,10 +17,8 @@ Design and implement a REST API for a supermarket management system using MVC ar
 
 ## 📋 Team Members
 
-- **[Student 1 Name]** - Project Lead & Database Design
-- **[Student 2 Name]** - API Development & Testing
-- **[Student 3 Name]** - Documentation & Validation
-- **[Student 4 Name]** - Frontend Integration & Deployment
+- **[Student 1 Name]** - Project Lead & API Development
+- **[Student 2 Name]** - Database Design & Documentation
 
 ### Note: Replace with actual team member names and responsibilities
 
