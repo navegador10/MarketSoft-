@@ -17,10 +17,8 @@ Design and implement a REST API for a supermarket management system using MVC ar
 
 ## 📋 Team Members
 
-- **[Student 1 Name]** - Project Lead & API Development
-- **[Student 2 Name]** - Database Design & Documentation
-
-### Note: Replace with actual team member names and responsibilities
+- **Adelson Aguirre Rodriguez** - Project Lead & API Development
+- **Sergio Alonso Arboleda S** - Database Design & Documentation
 
 ## 🗄️ Database Entities
 
