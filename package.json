@@ -2,10 +2,10 @@
   "name": "marketsoft-backend",
   "version": "1.0.0",
   "description": "Backend API for supermarket management system",
-  "main": "server.js",
+  "main": "server-sqlite.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server-sqlite.js",
+    "dev": "nodemon server-sqlite.js"
   },
   "keywords": [
     "supermarket",
